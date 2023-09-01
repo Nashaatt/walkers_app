@@ -1,0 +1,17 @@
+// gold color
+
+Container(
+          width: 100,
+          height: 125,
+          decoration: BoxDecoration(
+            border: Border.all(
+              color: Colors.red,
+              width: 5.0,
+            ),
+            gradient: LinearGradient(
+              colors: [Colors.yellow, Color(0xffad9c00)],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+            ),
+          ),
+        ),
